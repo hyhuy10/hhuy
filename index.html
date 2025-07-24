@@ -13,6 +13,17 @@
   margin: 0;
   background: #000;
 }
+ #heart-text {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ea80b0;
+  font-size: 3em;
+  font-family: 'Arial', sans-serif;
+  pointer-events: none;
+  text-shadow: 0 0 10px #fff, 0 0 20px #ea80b0;
+}
 canvas {
   position: absolute;
   width: 100%;
@@ -23,6 +34,7 @@ canvas {
 
  <BODY>
   <canvas id="pinkboard"></canvas>
+  <h1 id="heart-text" style="color: #ea80b0; text-align: center; font-family: 'Arial', sans-serif; font-size: 2em; margin-top: 20px;">Trần Thị Cẩm Ly</h1>
   <script>
   /*
  * Settings
